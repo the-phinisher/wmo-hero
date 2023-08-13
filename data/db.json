@@ -1,16 +1,33 @@
 {
-  "blogs": [
-    {
-      "title": "My first Blog",
-      "body": "Why do we use it?\n It has been a long established fact that a reader would be distracted...",
-      "author": "mario",
-      "id": 1
-    },
-    {
-      "title": "Opening Party!",
-      "body": "Why do we use it?\n It has been a long established fact that a reader would be distracted...",
-      "author": "yoshi",
-      "id": 2
-    }
-  ]
+	"heroes": [
+		{
+			"title": "random",
+			"id": 1,
+			"name": "Spiderman"
+		},
+		{
+			"name": "Batman 2",
+			"id": 2
+		},
+		{
+			"name": "Hulk",
+			"id": 3
+		},
+		{
+			"name": "Superman",
+			"id": 4
+		},
+		{
+			"name": "Notondashboardman",
+			"id": 5
+		},
+		{
+			"name": "Whylastman",
+			"id": 6
+		},
+		{
+			"name": "New Hero",
+			"id": 7
+		}
+	]
 }

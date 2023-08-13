@@ -1,7 +1,7 @@
 import HeroesList from "./HeroesList";
 import useFetch from "./useFetch";
 
-const Home = () => {
+const Heroes = () => {
 	const {
 		data: heroes,
 		isPending,
@@ -12,14 +12,9 @@ const Home = () => {
 		<div className="home">
 			{error && <div>{error}</div>}
 			{isPending && <div>Loading...</div>}
-			{heroes && (
-				<HeroesList
-					heroes={heroes.filter((hero) => hero.id < 5)}
-					title="Top heroes!"
-				/>
-			)}
+			{heroes && <HeroesList heroes={heroes} title="All heroes!" />}
 		</div>
 	);
 };
 
-export default Home;
+export default Heroes;
